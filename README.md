@@ -8,18 +8,23 @@
 
     Then I have used the "head" contains meta information about the HTML page such as title of the webpage(using "title" tag)
 
-    <title>Colored Markers</title> element sets the title of the HTML document, which appears on the browser's title bar or tab.
+    <title>Netflix | India</title> element sets the title of the HTML document, which appears on the browser's title bar or tab.
 
     <body> element contains the visible content of the HTML document, including headings, paragraphs, images, hyperlinks, etc.
 
-    <h1> is used for heading.
+    <div> tag with shadow class is used to create a section which is basically used to create a black background above the background image used in css, and then reduce it's opacity to make it work as a shadow.
+    
+    Inside the above <div> tag we have another <div> tag with maincontent class which hold all the main content of the webpage like the logo, button, and the text.
 
-    <div> tag with container class is used to create a section which holds all the three colors which are visible on the webpage.
+    Then we have three child <div> elements inside the <div class="maincontent"> section.
 
-    Then there are three child <div> section inside that which also have their own child sections.
+    First one with class= "mainlogo" is used to create the section which contains the logo, which is an image. So the <img> tag with class="logo" is used for the logo to insert the image.
 
-    <div> with class marker and red creates the red bar which is visible of the webpage, the one with class marker and green created the green bar and same as the above two is the third one with class marker and blue. We can use multiple classes for the same element, the marker element is used to specify the height and width and some other properties of that section and the other class like red, green and blue are used to color that section.
+    Second one with class="mainbutton" is used to create the section which contains the two buttons (Sign In and Register). <button class="button"> is used to create two buttons. 
 
-    All three of them have two child <div> sections, the first one does nothing, it's basically their to help the other section style the webapge correctly, and the second one with class sleeve is used to create the whites section the three colors visible on the webpage and style them better.
+    Third one with class="head1" is used to create a section which contains the text content available on the webpage. For the big heading type text, <h1> is used and for the rest <p> paragraph tag is used.
+
+
+    All the class and the id used inside the elements is used in the css document to style the webpage.
 
     
