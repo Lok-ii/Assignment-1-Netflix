@@ -1,5 +1,8 @@
 # Assignment-1-Netflix
 
+Hosted Link:- https://lok-ii.github.io/Assignment-1-Netflix/
+
+
 ![Screenshot 2023-08-03 205503](https://github.com/Lok-ii/Assignment-1-Netflix/assets/129180844/c17022fe-d238-4fa4-8715-ef09bbc8da45)
 
     <!DOCTYPE html>, which declares the document type.
